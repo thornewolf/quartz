@@ -5,8 +5,7 @@ COPY package-lock.json* .
 RUN npm ci
 
 FROM node:20-slim
-ARG PORT
 WORKDIR /usr/src/app
 COPY --from=builder /usr/src/app/ /usr/src/app/
 COPY . .
-CMD npx quartz build --serve --port $PORT
+CMD ["npx", "quartz", "build", "--serve", "--port", "$PORT"]
