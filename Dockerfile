@@ -9,4 +9,4 @@ ARG PORT
 WORKDIR /usr/src/app
 COPY --from=builder /usr/src/app/ /usr/src/app/
 COPY . .
-RUN npx quartz build --serve --port $PORT
+CMD npx quartz build --serve --port $PORT
