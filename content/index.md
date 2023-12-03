@@ -1,5 +1,5 @@
 ---
-title: Welcome to Quartz
+title: Thorne Wolfenbarger Notes
 ---
 
 This is a blank Quartz installation.
