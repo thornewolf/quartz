@@ -1,2 +1,2 @@
 [deploy]
-startCommand = "echo 'PORT' && npx quartz build --serve --port $PORT"
+startCommand = "npx quartz build --serve --port $PORT"
