@@ -1,6 +1,7 @@
 _:
     just --list
 
+alias c := commit
 # commit to github
 commit m="update":
     git add -A
