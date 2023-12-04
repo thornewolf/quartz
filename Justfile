@@ -7,7 +7,5 @@ commit m:
     git commit -m "{{m}}"
     git push origin HEAD
 
-# upload to railway
-up:
-    just commit "auto-commit when pushing to railway"
-    railway up
+run:
+    npx quartz build --serve
