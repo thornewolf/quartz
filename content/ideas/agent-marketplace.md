@@ -1,8 +1,6 @@
-2020-11-01
-
-0. pandas -> web scrape X feature in streamlit
-1. ai agent micropayment marketplace
-2. micro email verification SaaS
+---
+title: LLM Agent Marketplace
+---
 
 Let's continue with the agent marketplace, what's the user journey?
 1. Submit a task for completion, Poll or notify when complete.
